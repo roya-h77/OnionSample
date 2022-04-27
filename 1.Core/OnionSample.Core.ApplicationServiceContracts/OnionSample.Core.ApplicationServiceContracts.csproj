@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnionSample.Core.Domain\OnionSample.Core.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\Orders\" />
+    <Folder Include="Contracts\Tag\" />
+    <Folder Include="Contracts\Teacher\" />
+    <Folder Include="Dtos\Orders\" />
+    <Folder Include="Dtos\Tag\" />
+    <Folder Include="Dtos\Teacher\" />
+  </ItemGroup>
+
+</Project>
